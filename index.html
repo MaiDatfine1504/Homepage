@@ -6,50 +6,99 @@
     <meta name="keywords" content="homestay, hotel, motel, hostel, m village">
     <meta name="description" content="M Village là một nơi yên bình để bạn thư giãn sau chuỗi ngày dài làm việc căng thẳng. Ở đây chúng tôi cung cấp những tiên nghi giúp bạn cảm thấy giống như sinh hoạt trong chính ngôi nhà của minh.">
     <meta http-equiv="refresh" content="1800">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="Images/Homestay_removebg.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./Images/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>M Village</title>
+    <script src="./script.js" defer></script>
+    <title>D&D Village</title>
 </head>
 <body>
     <div class="main">
         <div class="header">
             <div class="header__inner">
                 <div class="logo">
-                    <img src="Images/Homestay_removebg.png" alt="M Village" />
-                    <span><a href="#page__up">M Village</a></span>
+                    <img src="./Images/Logo.png" alt="M Village" />
+                    <span><a href="#page__up">D&D Village</a></span>
                 </div>
-                <ul class="menu">
-                    <li class="menu__items">
-                        <i class="fas fa-book menu__icon"></i>
-                        <a href="#" class="menu__link">Về M Village</a>
-                    </li>
-                    <li class="menu__items">
-                        <i class="fas fa-hotel menu__icon"></i>
-                        <a href="#" class="menu__link">Chi nhánh</a>
-                    </li>
-                    <li class="menu__items">
-                        <i class="fas fa-phone menu__icon"></i>
-                        <a href="#" class="menu__link">Đặt phòng</a>
-                    </li>
-                    <li class="menu__items">
-                        <i class="fas fa-pen menu__icon"></i>
-                        <a href="#" class="menu__link">Đánh giá</a>
-                    </li>
-                </ul>
+                <div class="wrapper">
+                    <ul class="menu">
+                        <li class="menu__items">
+                            <i class="fas fa-book menu__icon"></i>
+                            <a href="#" class="menu__link">Về D&D Village</a>
+                        </li>
+                        <li class="menu__items">
+                            <i class="fas fa-phone menu__icon"></i>
+                            <a href="#" class="menu__link">Liên hệ</a>
+                        </li>
+                    </ul>
+                    <div class="booking">
+                       <a href="#">Đặt phòng</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="banner" id="page__up">
             <div class="banner__wrapper">
                 <div class="banner__content">
                     <h1 class="banner__title">Trải nghiệm sống lý tưởng giữa lòng thành phố</h1>
-                    <p class="banner__subtitle">Nếu bạn đang tìm kiếm một không gian sống đẳng cấp, một căn hộ hiện đại, ấm áp và một cộng đồng  tươi trẻ để cùng chia sẻ những giá trị sống tích cực, M Village là một lựa chọn lý tưởng dành cho bạn.</p>
+                    <p class="banner__subtitle">Nếu bạn đang tìm kiếm một không gian sống đẳng cấp, một căn hộ hiện đại, ấm áp và một cộng đồng  tươi trẻ để cùng chia sẻ những giá trị sống tích cực, D&D Village là một lựa chọn lý tưởng dành cho bạn.</p>
                 </div>
                 <div class="banner__video">
                     <video height="338px" width="601px" autoplay muted loop class="video">
                         <source src="Images/Video.mp4">
                     </video>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="slider__wrapper">
+                <img src="./Images/1689828033450-facade.png" alt="">
+                <img src="./Images/1689757838531-MVillage(NVT)22090.jpg" alt="">
+                <img src="./Images/1689305187978-M Village(ĐCT2)2404.jpg" alt="">
+                <img src="./Images/1689757838482-MVillage(NVT)21829.jpg" alt="">
+                <img src="./Images/1689757838499-MVillage(NVT)20273.jpg" alt="">
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="service">
+            <h2>Nâng tầm trải nghiệm sống</h2>
+            <p>Tại M Village bạn là chủ nhân được tận hưởng các tiện ích cao cấp, những trải nghiệm thú vị ngay từ khi bước vào.</p>
+            <div class="service__wrapper">
+                <div class="service__menu">
+                    <div class="service__item">
+                        <img src="https://mvillage.vn/_next/image?url=https%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fcdn.mvillage.vn%2FCity_view_6797b8b0ba.png&w=64&q=75" alt="Icon">
+                        <p>Khuôn viên cây xanh</p>
+                    </div>
+                    <div class="service__item">
+                        <img src="https://mvillage.vn/_next/image?url=https%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fcdn.mvillage.vn%2FGroup_856_224d38aeea.png&w=64&q=75" alt="Icon">
+                        <p>Dịch vụ dọn phòng</p>
+                    </div>
+                    <div class="service__item">
+                        <img src="https://mvillage.vn/_next/image?url=https%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fcdn.mvillage.vn%2FGroup_435_126b44f3b9.png&w=64&q=75" alt="Icon">
+                        <p>An ninh 24/7</p>
+                    </div>
+                    <div class="service__item">
+                        <img src="https://mvillage.vn/_next/image?url=https%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fcdn.mvillage.vn%2FGroup_1031_68b13f6392.png&w=64&q=75" alt="Icon">
+                        <p>Tiệm giặt ủi</p>
+                    </div>
+                    <div class="service__item">
+                        <img src="https://mvillage.vn/_next/image?url=https%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fcdn.mvillage.vn%2FBep_8e45e39191.png&w=64&q=75" alt="Icon">
+                        <p>Nhà bếp hiện đại</p>
+                    </div>
+                    <div class="service__item">
+                        <img src="https://mvillage.vn/_next/image?url=https%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fcdn.mvillage.vn%2FWifi_49521c764c.png&w=64&q=75" alt="Icon">
+                        <p>Wifi tốc độ cao</p>
+                    </div>
+                    <div class="service__item">
+                        <img src="https://mvillage.vn/_next/image?url=https%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fcdn.mvillage.vn%2FBath_4d48960028.png&w=64&q=75" alt="Icon">
+                        <p>Phòng tắm riêng</p>
+                    </div>
+                    <div class="service__item">
+                        <img src="https://mvillage.vn/_next/image?url=https%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fcdn.mvillage.vn%2FGroup_1048_acd90599d9.png&w=64&q=75" alt="Icon">
+                        <p>Cộng đồng văn minh</p>
+                    </div>
                 </div>
             </div>
         </div>
