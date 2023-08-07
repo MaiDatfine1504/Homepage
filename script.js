@@ -50,3 +50,16 @@ slider__wrapper.addEventListener("touchmove", dragging);
 slider__wrapper.addEventListener("mouseup", dragStop);
 slider__wrapper.addEventListener("mouseleave", dragStop);
 slider__wrapper.addEventListener("touchend", dragStop);
+
+const Button = document.querySelector(".btn__menu");
+const Menu = document.querySelector(".hz__menu__wrapper");
+const Link = document.querySelectorAll(".hz__menu__item a");
+
+Button.onclick = function () {
+    Menu.style.display = 'block';
+    Button.style.color = '#F77E3E';
+};
+Menu.onmouseleave = function () {
+    Menu.style.display = 'none';
+    Button.style.color = '#000';
+};
